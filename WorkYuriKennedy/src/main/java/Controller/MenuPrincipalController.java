@@ -4,7 +4,8 @@
  */
 package Controller;
 
-import view.Agenda;
+
+import view.FormRegistro;
 import view.MenuPrincipal;
 
 /**
@@ -22,8 +23,8 @@ public class MenuPrincipalController {
     
     public void navegarParaAgenda(){
     
-       Agenda agenda = new Agenda();
-       agenda.setVisible(true);
+       FormRegistro formRegistro = new FormRegistro();
+       formRegistro.setVisible(true);
     
     }
        

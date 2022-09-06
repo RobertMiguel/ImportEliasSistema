@@ -41,14 +41,15 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagens/Menu.png"))); // NOI18N
+        jLabel1.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel1.setForeground(new java.awt.Color(255, 0, 0));
         jLabel1.setMaximumSize(new java.awt.Dimension(1270, 720));
         jLabel1.setMinimumSize(new java.awt.Dimension(1270, 720));
 
         jMenuCadastro.setText("Cadastro");
 
         jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagens/icons/cliente-icon.png"))); // NOI18N
-        jMenuItem1.setText("Cliente");
+        jMenuItem1.setText("Agendamento");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
